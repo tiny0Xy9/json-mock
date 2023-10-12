@@ -1,14 +1,63 @@
-[
-  {
-    "name": "All",
-    "id": 1001
-  },
-  {
-    "name":"Android" ,
-    "id": 1002
-  },
-  {
-    "name": "iOS",
-    "id": 1003
-  }
-]
+{
+  "categories": [
+    {
+      "name": "All",
+      "id": 1000
+    },
+    {
+      "name": "Android",
+      "id": 1001
+    },
+    {
+      "name": "iOS",
+      "id": 1002
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "category_id": 1001,
+      "name": "Pixel7 256GB",
+      "price": 80000,
+      "comments": 100,
+      "likes": 10,
+      "photo_url": "https://placehold.jp/30/008000/000/400x400.png?text=Android1"
+    },
+    {
+      "id": 2,
+      "category_id": 1001,
+      "name": "Pixel8 256GB",
+      "price": 90000,
+      "comments": 1000,
+      "likes": 10,
+      "photo_url": "https://placehold.jp/30/008000/000/400x400.png?text=Android2"
+    },
+    {
+      "id": 3,
+      "category_id": 1001,
+      "name": "Pixel8 Pro 256GB",
+      "price": 190000,
+      "comments": 4,
+      "likes": 10000,
+      "photo_url": "https://placehold.jp/30/008000/000/400x400.png?text=Android3"
+    },
+    {
+      "id": 4,
+      "category_id": 1001,
+      "name": "Xperia Pro 256GB",
+      "price": 250000,
+      "comments": 40,
+      "likes": 50,
+      "photo_url": "https://placehold.jp/30/008000/000/400x400.png?text=Android4"
+    },
+    {
+      "id": 4,
+      "category_id": 1002,
+      "name": "iPhone15 Pro 256GB",
+      "price": 340000,
+      "comments": 60,
+      "likes": 50,
+      "photo_url": "https://placehold.jp/30/708090/FFF/400x400.png?text=iOS"
+    }
+  ]
+}
